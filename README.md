@@ -1,3 +1,3 @@
 # Actin
 Actin fiber bending
-Save fiber (x,y) data in csv file
+Each fiber (x,y) data in a csv file in the folder
