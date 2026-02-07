@@ -7,4 +7,5 @@ Each fiber (x,y) csv file with different time in the folder
 # code: kymograph
 For generating heamap of all fibers
 # code: Aq with respect to q
-For plotting Aq as a function of q
+For plotting Aq as a function of q &
+calculating bending energy & characteristic q
