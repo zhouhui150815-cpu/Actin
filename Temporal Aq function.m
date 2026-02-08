@@ -75,7 +75,7 @@ for k = 1:nFiles
     q  = (1:Nmode)' * pi / L;
     Aq = zeros(Nmode,1);
     for n = 1:Nmode
-        Aq(n) = sqrt(2/L) * trapz(s_u, theta .* cos(q(n)*s_u));
+        Aq(n) = sqrt(2/L) * trapz(s_u, theta .* sin(q(n)*s_u));
     end
 
     A_mat(:,k) = Aq;
@@ -160,3 +160,4 @@ outFile = fullfile(folderName,'BendingEnergyIndex.xlsx');
 writetable(ResultTable,outFile);
 
 fprintf('Results Saving: %s\n', outFile);
+
